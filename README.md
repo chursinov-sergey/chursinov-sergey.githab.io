@@ -1,1 +1,149 @@
-# chursinov-sergey.githab.io
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Сергей Чурсинов — Программист 1С</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #e2e8f0;
+    }
+    .container { max-width: 1000px; margin: auto; padding: 20px; }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: radial-gradient(circle at top, #1e3a8a, transparent);
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+
+    h1 { font-size: 36px; margin-bottom: 10px; }
+    h2 { margin-bottom: 15px; color: #38bdf8; }
+
+    .subtitle { opacity: 0.9; margin-bottom: 8px; }
+
+    .card {
+      background: rgba(30, 41, 59, 0.8);
+      backdrop-filter: blur(10px);
+      padding: 24px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+    }
+
+    .skills span {
+      display: inline-block;
+      background: linear-gradient(135deg, #334155, #475569);
+      padding: 6px 12px;
+      border-radius: 10px;
+      margin: 4px;
+      font-size: 14px;
+    }
+
+    .job { margin-bottom: 20px; }
+
+    .job-title {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 6px;
+      color: #e0f2fe;
+    }
+
+    ul { margin: 10px 0 10px 20px; }
+    li { margin-bottom: 6px; }
+
+    a { color: #38bdf8; text-decoration: none; }
+
+    .contact-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 18px;
+      background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+      color: #0f172a;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: transform 0.2s ease;
+    }
+
+    .contact-btn:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <h1>Сергей Чурсинов</h1>
+      <p class="subtitle">Программист 1С • 18+ лет опыта</p>
+      <p class="subtitle">Удалённая работа | Проекты | Консалтинг</p>
+      <a class="contact-btn" href="https://t.me/sergey_chursinov" target="_blank">Связаться</a>
+    </header>
+
+    <section class="card">
+      <h2>Обо мне</h2>
+      <p>Помогаю компаниям автоматизировать бизнес-процессы на базе 1С: быстрее, надёжнее и без лишнего хаоса. Большой опыт внедрения, доработки и интеграции систем под реальные задачи бизнеса.</p>
+    </section>
+
+    <section class="card">
+      <h2>Навыки</h2>
+      <div class="skills">
+        <span>1С:Предприятие 8</span>
+        <span>1С:Документооборот</span>
+        <span>1С:Бухгалтерия</span>
+        <span>1С:УТ</span>
+        <span>Интеграции</span>
+        <span>Автоматизация</span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Кейсы / проекты</h2>
+
+      <div class="job">
+        <div class="job-title">Внедрение 1С:Документооборот</div>
+        <p><strong>Результат:</strong> ускорение согласований и полный контроль процессов.</p>
+      </div>
+
+      <div class="job">
+        <div class="job-title">Миграция 1С:БП 2.5 → 3.0</div>
+        <p><strong>Результат:</strong> стабильная система + соответствие требованиям учета.</p>
+      </div>
+
+      <div class="job">
+        <div class="job-title">Интеграции 1С</div>
+        <p><strong>Результат:</strong> снижение ручного труда и ошибок.</p>
+      </div>
+
+    </section>
+
+    <section class="card">
+      <h2>Контакты</h2>
+      <p>Email: <a href="mailto:chursinov.s@gmail.com">chursinov.s@gmail.com</a></p>
+      <p>Telegram: <a href="https://t.me/sergey_chursinov" target="_blank">@sergey_chursinov</a></p>
+    </section>
+
+    <footer>
+      <p>© 2026 Сергей Чурсинов</p>
+    </footer>
+
+  </div>
+</body>
+</html>
