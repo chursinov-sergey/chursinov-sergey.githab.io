@@ -1,152 +1,185 @@
 <!DOCTYPE html>
-<!-- saved from url=(0112)file:///C:/Users/Churs/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/index.html -->
-<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Сергей Чурсинов — Разработчик 1С</title>
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: 'Segoe UI', Arial, sans-serif;
-      background: linear-gradient(135deg, #0f172a, #1e293b);
-      color: #e2e8f0;
-    }
-    .container { max-width: 1000px; margin: auto; padding: 20px; }
-
-    header {
-      text-align: center;
-      padding: 60px 20px;
-      background: radial-gradient(circle at top, #1e3a8a, transparent);
-      border-radius: 20px;
-      margin-bottom: 20px;
-    }
-
-    h1 { font-size: 36px; margin-bottom: 10px; }
-    h2 { margin-bottom: 15px; color: #38bdf8; }
-
-    .subtitle { opacity: 0.9; margin-bottom: 8px; }
-
-    .card {
-      background: rgba(30, 41, 59, 0.8);
-      backdrop-filter: blur(10px);
-      padding: 24px;
-      border-radius: 20px;
-      margin-bottom: 20px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 15px 40px rgba(0,0,0,0.5);
-    }
-
-    .skills span {
-      display: inline-block;
-      background: linear-gradient(135deg, #334155, #475569);
-      padding: 6px 12px;
-      border-radius: 10px;
-      margin: 4px;
-      font-size: 14px;
-    }
-
-    .job { margin-bottom: 20px; }
-
-    .job-title {
-      font-weight: bold;
-      font-size: 18px;
-      margin-bottom: 6px;
-      color: #e0f2fe;
-    }
-
-    ul { margin: 10px 0 10px 20px; }
-    li { margin-bottom: 6px; }
-
-    a { color: #38bdf8; text-decoration: none; }
-
-    .contact-btn {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 10px 18px;
-      background: linear-gradient(135deg, #38bdf8, #0ea5e9);
-      color: #0f172a;
-      border-radius: 10px;
-      font-weight: bold;
-      transition: transform 0.2s ease;
-    }
-
-    .contact-btn:hover {
-      transform: scale(1.05);
-    }
-
-    footer {
-      text-align: center;
-      margin-top: 40px;
-      font-size: 14px;
-      opacity: 0.6;
-    }
-  </style>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Сергей Чурсинов — программист 1С, ИТ-консалтинг, автоматизация и внедрение решений для бизнеса.">
+    <title>Чурсинов Сергей - сайт визитка разработчика 1С</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style></style>
 </head>
 <body>
-  <div class="container">
+<div class="navigation">
+    <nav>
+        <a href="index.html#about">Обо мне</a>
+        <a href="index.html#skills">Навыки</a>
+        <a href="index.html#cases">Кейсы</a>
+        <a href="index.html#contacts">Контакты</a>
+    </nav>
+</div>
+<div class="container">
+    <div class="topbar">
+        <div class="brand">
 
-    <header>
-      <h1>Сергей Чурсинов</h1>
-      <p class="subtitle">Разработчик 1С • 16+ лет опыта</p>
-      <p class="subtitle">Удалённая работа | Проекты | Консалтинг</p>
-      <a class="contact-btn" href="https://t.me/sergey_chursinov" target="_blank">Связаться</a>
+            <img class="brand-logo" src="img/logo.png" alt="Логотип">
+            <div>
+                <div class="brand-name">Сергей Чурсинов</div>
+                <div class="brand-subtitle">ИТ-консалтинг</div>
+            </div>
+        </div>
+    </div>
 
-    </header>
+    <section class="hero">
 
-    <section class="card">
-      <h2>Обо мне</h2>
-      <p>Помогаю малому и среднему бизнесу автоматизировать бизнес-процессы на базе 1С:Предприятие. Большой опыт внедрения, доработки и интеграции систем под реальные задачи.</p>
+        <div class="hero-main">
+            <div class="hero-badge">⚡ 15+ лет опыта практической работы в ИТ ⚡</div>
+            <h1>Автоматизация бизнеса на 1С без хаоса и лишних затрат</h1>
+            <p class="hero-text">
+                Помогаю компаниям ускорять бизнес-процессы, снижать ошибки и наводить порядок в учёте с помощью 1С и
+                интеграций. Работаю на результат, а не просто «пишу код».
+            </p>
+
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="https://t.me/sergey_chursinov" target="_blank"
+                   rel="noopener noreferrer">
+                    Связаться в Telegram
+                </a>
+                <a class="btn btn-secondary" href="mailto:chursinov.s@gmail.com">
+                    Написать на email
+                </a>
+            </div>
+
+            <div class="hero-meta">
+                <div class="meta-item">
+                    <span class="meta-value">1С</span>
+                    <span class="meta-label">внедрение, разработка и сопровождение</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-value">IT</span>
+                    <span class="meta-label">ИТ-консалтинг широкого спектра и автоматизация</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-value">Remote</span>
+                    <span class="meta-label">удалённая работа и ведение проектов</span>
+                </div>
+            </div>
+        </div>
+
+        <aside class="hero-side">
+            <div class="side-card">
+                <div class="side-title">Чем могу быть полезен</div>
+                <div class="side-text">
+                    - Автоматизацией бизнес-процессов на базе платформы 1С:Предприятие
+                </div>
+                <div class="side-text">
+                    - Системное администрирование
+                </div>
+            </div>
+            <div class="side-card" id="contacts">
+                <div class="side-title">Контакты</div>
+                <div class="contact-list">
+                    <a class="contact-link" href="http://www.schursinov.ru">
+                        <span>Сайт</span>
+                        <span>www.schursinov.ru</span>
+                    </a>
+                    <a class="contact-link" href="mailto:chursinov.s@gmail.com">
+                        <span>Email</span>
+                        <span>chursinov.s@gmail.com</span>
+                    </a>
+                    <a class="contact-link" href="https://t.me/sergey_chursinov" target="_blank"
+                       rel="noopener noreferrer">
+                        <span>Telegram</span>
+                        <span>@sergey_chursinov</span>
+                    </a>
+                </div>
+            </div>
+        </aside>
     </section>
 
-    <section class="card">
-      <h2>Навыки</h2>
-      <div class="skills">
-        <span>1С:Предприятие 8</span>
-        <span>1С:Документооборот</span>
-        <span>1С:Бухгалтерия</span>
-        
-<span>1С:УТ</span>
-<span>1С:Розница</span><span>1С:УНФ</span>
-<span>Базы данных (mssql, postgres)</span>
-<span>Облачная и локальная вертуализация</span>
-        <span>Интеграции</span>
-        
-<span>Автоматизация</span>
-<span>Системное администрирование</span>
-<span>Сети и интернет</span><span>ИТ Аудит</span>
-      </div>
+    <section class="section card" id="about">
+        <h2 class="section-title">Обо мне</h2>
+        <p class="section-text">
+            Помогаю компаниям автоматизировать бизнес-процессы на базе 1С:Предприятие. Большой опыт внедрения, доработки
+            и интеграции
+            систем под реальные задачи бизнеса.
+        </p>
+        <p class="section-text">
+            Ориентируюсь на практический результат: меньше ручных операций, меньше ошибок,
+            выше прозрачность и управляемость процессов.
+        </p>
     </section>
 
-    <section class="card">
-      <h2>Кейсы / Проекты</h2>
-
-      <div class="job">
-        <div class="job-title">Внедрение 1С:Документооборот</div>
-        <p><strong>Результат:</strong> ускорение согласований и полный контроль процессов.</p>
-      </div>
-
-      
-
-      
-
+    <section class="section card" id="skills">
+        <h2 class="section-title">Навыки</h2>
+        <div class="skills">
+            <span>1С:Предприятие 8</span>
+            <span>1С:Документооборот</span>
+            <span>1С:Бухгалтерия</span>
+            <span>1С:УТ</span>
+            <span>Интеграции</span>
+            <span>Автоматизация</span>
+            <span>Внедрение</span>
+            <span>Сопровождение</span>
+            <span>Миграция данных</span>
+            <span>ИТ-консалтинг</span>
+        </div>
     </section>
 
-    <section class="card">
-      <h2>Контакты</h2>
-      <p>Email: <a href="mailto:chursinov.s@gmail.com">chursinov.s@gmail.com</a></p>
-      <p>Telegram: <a href="https://t.me/sergey_chursinov" target="_blank">@sergey_chursinov</a></p>
+    <section class="section card" id="services">
+        <h2 class="section-title">Что я делаю</h2>
+        <div class="services-list">
+            <div class="service">
+                <div class="service-title">Внедрение 1С:Документооборот</div>
+                <div class="service-text">
+                    Настройка согласований, маршрутов и контроля процессов.
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-title">Миграция 1С:БП 2.5 → 3.0</div>
+                <div class="service-text">
+                    Переход на актуальную версию с сохранением стабильности учета.
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-title">Интеграции 1С</div>
+                <div class="service-text">
+                    Связка 1С с внешними системами, сервисами и сайтами.
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-title">Автоматизация процессов</div>
+                <div class="service-text">
+                    Уменьшение ручного труда, ошибок и потерь времени.
+                </div>
+            </div>
+        </div>
     </section>
 
-    <footer>
-      <p>© 2026 Сергей Чурсинов</p>
+    <section class="section card" id="cases">
+        <h2 class="section-title">Кейсы / проекты</h2>
+
+        <div class="case">
+            <div class="case-title">Внедрение 1С:Документооборот</div>
+            <p><strong>Результат:</strong> ускорение согласований и полный контроль процессов.</p>
+        </div>
+
+        <div class="case">
+            <div class="case-title">Миграция 1С:БП 2.5 → 3.0</div>
+            <p><strong>Результат:</strong> стабильная система и соответствие требованиям учета.</p>
+        </div>
+
+        <div class="case">
+            <div class="case-title">Интеграции 1С</div>
+            <p><strong>Результат:</strong> снижение ручного труда и количества ошибок.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 Сергей Чурсинов</p>
     </footer>
 
-  </div>
+</div>
 
-
-</body></html>
+</body>
+</html>
