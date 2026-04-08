@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc03ad21-8338-4a25-8db3-348cdc2d7275" name="Изменения" comment="Дополнение контента, редактирование фронтэнда.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="dc03ad21-8338-4a25-8db3-348cdc2d7275" name="Изменения" comment="Устранение ошибки">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1756834407808</updated>
       <workItem from="1756834408865" duration="953000" />
-      <workItem from="1775654515953" duration="11853000" />
+      <workItem from="1775654515953" duration="12045000" />
     </task>
     <task id="LOCAL-00001" summary="Коммит">
       <option name="closed" value="true" />
@@ -134,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775672349284</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Устранение ошибки">
+      <option name="closed" value="true" />
+      <created>1775672534964</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1775672534964</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +151,7 @@
     <MESSAGE value="Коммит" />
     <MESSAGE value="Дополнение контента" />
     <MESSAGE value="Дополнение контента, редактирование фронтэнда." />
-    <option name="LAST_COMMIT_MESSAGE" value="Дополнение контента, редактирование фронтэнда." />
+    <MESSAGE value="Устранение ошибки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Устранение ошибки" />
   </component>
 </project>
