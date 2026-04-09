@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc03ad21-8338-4a25-8db3-348cdc2d7275" name="Изменения" comment="Релиз 1.1&#10;Адаптация под экраны мобильных.">
+    <list default="true" id="dc03ad21-8338-4a25-8db3-348cdc2d7275" name="Изменения" comment="Релиз 1.2&#10;Адаптация под экраны мобильных.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +105,7 @@
       <updated>1756834407808</updated>
       <workItem from="1756834408865" duration="953000" />
       <workItem from="1775654515953" duration="26066000" />
-      <workItem from="1775759764327" duration="2342000" />
+      <workItem from="1775759764327" duration="3780000" />
     </task>
     <task id="LOCAL-00001" summary="Коммит">
       <option name="closed" value="true" />
@@ -178,11 +179,54 @@
       <option name="project" value="LOCAL" />
       <updated>1775762090569</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Релиз 1.1&#10;Адаптация под экраны мобильных.">
+      <option name="closed" value="true" />
+      <created>1775762148926</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1775762148926</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Релиз 1.1&#10;Адаптация под экраны мобильных.">
+      <option name="closed" value="true" />
+      <created>1775762238910</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1775762238910</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Релиз 1.1&#10;Адаптация под экраны мобильных.">
+      <option name="closed" value="true" />
+      <created>1775762756108</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1775762756108</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Релиз 1.2&#10;Адаптация под экраны мобильных.">
+      <option name="closed" value="true" />
+      <created>1775763010563</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1775763010563</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Коммит" />
@@ -192,6 +236,7 @@
     <MESSAGE value="Новый концепт и наполнение." />
     <MESSAGE value="Релиз 1.0" />
     <MESSAGE value="Релиз 1.1&#10;Адаптация под экраны мобильных." />
-    <option name="LAST_COMMIT_MESSAGE" value="Релиз 1.1&#10;Адаптация под экраны мобильных." />
+    <MESSAGE value="Релиз 1.2&#10;Адаптация под экраны мобильных." />
+    <option name="LAST_COMMIT_MESSAGE" value="Релиз 1.2&#10;Адаптация под экраны мобильных." />
   </component>
 </project>
