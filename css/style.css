@@ -394,6 +394,12 @@ img:hover {
     font-size: 14px;
 }
 
+ul {
+    display: block;
+    padding: 0;
+    margin-left: 20px;
+}
+
 @media (max-width: 900px) {
     .hero {
         grid-template-columns: 1fr;
