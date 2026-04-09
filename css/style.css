@@ -157,6 +157,7 @@ nav a:hover {
     color: #bfe8fb;
     font-size: 22px;
     margin-bottom: 8px;
+    box-shadow: 0 12px 30px rgba(56, 189, 248, 0.24);
 }
 
 h1 {
@@ -379,6 +380,11 @@ h1 {
 .service-text {
     color: var(--muted);
     font-size: 14px;
+}
+
+img:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
 }
 
 .footer {
