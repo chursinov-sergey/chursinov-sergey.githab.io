@@ -11,16 +11,15 @@
 </head>
 <body>
 <div class="container">
-    <div class="navigation">
+    <div class="navigation" id="toppage">
         <nav>
             <a href="index.html#about">Обо мне</a>
             <a href="index.html#skills">Навыки</a>
             <a href="index.html#experience">Кейсы</a>
             <a href="index.html#contacts">Контакты</a>
-
             <a class="btn btn-primary" href="https://t.me/sergey_chursinov" target="_blank"
-                   rel="noopener noreferrer">
-                    Telegram
+               rel="noopener noreferrer">
+                Telegram
             </a>
             <a class="btn btn-primary" href="mailto:chursinov.s@gmail.com">
                 Email
@@ -37,19 +36,28 @@
         </div>
     </div>
     <section class="hero">
-        <div class="hero-main">
-            <div class="hero-badge">
+        <div class="hero-side">
+            <div class="side-text">
                 <a class="btn" href="index.html#experience">
                     <p class="section-text">⚡ 15+ лет практического опыта ⚡</p>
                 </a>
             </div>
-            <h1>Автоматизация бизнеса на 1С без хаоса и лишних затрат</h1>
+            <h1>Автоматизация бизнеса на 1С, меньше ручной работы, меньше ошибок, полный контроль</h1>
             <p class="hero-text">
-                Помогаю компаниям ускорять бизнес-процессы, снижать ошибки и наводить порядок в учёте с помощью 1С и
-                интеграций. Работаю на результат, а не просто «пишу код».
+                Помогаю компаниям ускорять процессы, снижать ошибки и наводить порядок в учёте с помощью 1С и
+                интеграций.
+                Работаю на результат, а не просто «пишу код».
             </p>
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="https://t.me/sergey_chursinov" target="_blank">
+                    Обсудить проект
+                </a>
+                <a class="btn btn-secondary" href="#experience">
+                    Посмотреть кейсы
+                </a>
+            </div>
         </div>
-        <aside class="hero-side">
+        <aside class="hero-main">
             <div class="side-card" id="contacts">
                 <div class="side-title">Контакты</div>
                 <div class="contact-list">
@@ -66,8 +74,8 @@
                         <span>Telegram</span>
                         <span>@sergey_chursinov</span>
                     </a>
-                    <a class="btn btn-primary" href="">
-                        <span>Стать клиентом</span>
+                    <a class="btn btn-primary" href="https://t.me/sergey_chursinov" target="_blank">
+                        Получить консультацию
                     </a>
                 </div>
             </div>
@@ -75,22 +83,33 @@
     </section>
     <section class="section card" id="about">
         <div style="display: grid; grid-template-columns: 180px 1fr; gap: 24px; align-items: center;">
-
-            <img src="img/avatar.png" alt="Сергей Чурсинов"
-                 style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover;
+            <div>
+                <img src="img/avatar.png" alt="Сергей Чурсинов"
+                     style="width: 180px; height: auto; border-radius: 50%; object-fit: cover;
                     border: 2px solid rgba(56,189,248,0.3); box-shadow: 0 10px 30px rgba(0,0,0,0.4);">
-
+            </div>
             <div>
                 <h2 class="section-title">Обо мне</h2>
 
                 <p class="section-text">
-                    Эксперт в области ИТ с опытом более 15 лет. Специализируюсь на автоматизации бизнеса,
-                    внедрении и доработке решений на базе 1С.
+                    Эксперт в области ИТ и автоматизации бизнеса с практическим опытом более 15 лет.
+                    Специализируюсь на внедрении, доработке и интеграции решений на базе платформы 1С.
                 </p>
 
                 <p class="section-text">
-                    Реализую проекты полного цикла: от анализа задач до внедрения и сопровождения.
-                    Основная цель — снижение затрат, уменьшение ошибок и повышение прозрачности бизнеса.
+                    Реализовал проекты для розничных сетей, оптовых компаний и производственных предприятий:
+                    внедрение 1С:Документооборот, автоматизация торговли, интеграции с сайтами, CRM,
+                    маркетплейсами и аналитическими системами.
+                </p>
+
+                <p class="section-text">
+                    Глубоко понимаю бизнес-процессы: умею не просто «настроить 1С», а выстроить систему,
+                    которая реально снижает затраты, уменьшает количество ошибок и повышает управляемость бизнеса.
+                </p>
+
+                <p class="section-text">
+                    Мой подход — не просто разработка, а решение задач бизнеса: беру ответственность за результат
+                    и довожу проекты до рабочего состояния.
                 </p>
             </div>
 
@@ -103,7 +122,8 @@
             <div class="service">
                 <div class="service-title">1С-разработка и внедрение</div>
                 <div class="service-text">
-                    Разработка, доработка и внедрение решений на базе 1С:Предприятие 8 (Бухгалтерия, УТ, Документооборот, ERP).
+                    Разработка, доработка и внедрение решений на базе 1С:Предприятие 8 (Бухгалтерия, УТ,
+                    Документооборот, ERP).
                     Опыт полного цикла: от анализа требований до запуска в эксплуатацию.
                 </div>
             </div>
@@ -127,7 +147,8 @@
             <div class="service">
                 <div class="service-title">Внедрение документооборота</div>
                 <div class="service-text">
-                    Настройка 1С:Документооборот (2.1, 3.0): маршруты согласования, роли, контроль сроков, интеграция с учетными системами.
+                    Настройка 1С:Документооборот (2.1, 3.0): маршруты согласования, роли, контроль сроков, интеграция с
+                    учетными системами.
                 </div>
             </div>
 
@@ -166,7 +187,7 @@
         </div>
     </section>
     <section class="section card">
-        <h2 class="section-title">Навыки</h2>
+        <h2 class="section-title">Технологии и инструменты</h2>
         <div class="skills">
             <span>1С:Предприятие 8.х</span>
             <span>1С:Документооборот</span>
@@ -191,11 +212,13 @@
             <div class="case-title">2026 — автоматизация крупной торговой компании</div>
             <p><strong>Задача:</strong> комплексная автоматизация бизнеса (мебель и товары для дома)</p>
             <p><strong>Что сделано:</strong></p>
-            <p>-внедрение 1С:Управление торговлей</p>
-            <p>-автоматизация заявок на сборку и сервис</p>
-            <p>-интеграции с сайтом, CRM и аналитическими системами</p>
-            <p>-интеграции с маркетплейсами</p>
-            <p>-разработка отчетности и аналитики</p>
+            <ul>
+                <li><p>Внедрение 1С:Управление торговлей</p></li>
+                <li><p>Автоматизация заявок на сборку и сервис</p></li>
+                <li><p>Интеграции с сайтом, CRM и аналитическими системами</p></li>
+                <li><p>Интеграции с маркетплейсами</p></li>
+                <li><p>Разработка отчетности и аналитики</p></li>
+            </ul>
             <p><strong>Результат:</strong> автоматизированные бизнес-процессы, снижение ручного труда и повышение
                 прозрачности данных</p>
         </div>
@@ -256,6 +279,12 @@
                 бизнеса</p>
         </div>
 
+    </section>
+
+    <section class="footer">
+        <a href="index.html#toppage" class="btn btn-secondary">
+            Вернуться в начало
+        </a>
     </section>
 
     <footer class="footer">
