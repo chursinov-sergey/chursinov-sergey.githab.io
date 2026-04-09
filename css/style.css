@@ -400,6 +400,18 @@ ul {
     margin-left: 20px;
 }
 
+.box {
+    flex: 0 1 auto;
+    min-width: 190px;
+    align-items: center;
+}
+
+.container-section-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 @media (max-width: 900px) {
     .hero {
         grid-template-columns: 1fr;
