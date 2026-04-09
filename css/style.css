@@ -400,6 +400,7 @@ ul {
     margin-left: 20px;
 }
 
+/*1*/
 .box {
     flex: 0 1 auto;
     min-width: 190px;
@@ -414,7 +415,6 @@ ul {
     justify-content: center;
 }
 
-/*!*/
 @media (max-width: 900px) {
     .hero {
         grid-template-columns: 1fr;
