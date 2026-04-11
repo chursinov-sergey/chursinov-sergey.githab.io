@@ -312,6 +312,14 @@ h2 {
     padding: 26px;
 }
 
+.section_avatar{
+    width: 180px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(56,189,248,0.3); box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
 .section-title {
     font-size: 22px;
     margin-bottom: 16px;
@@ -473,8 +481,8 @@ ul {
     }
 
     .brand-logo {
-        width: 48px;
-        height: 48px;
+        width: 150px;
+        height: auto;
     }
 
     .section-title {
