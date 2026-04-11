@@ -95,11 +95,41 @@
                     </a>
                 </div>
                 <div class="qr-card" id="saveContact">
-                    <div class="qr-title">Сохраните контакт</div>
+                    <div class="qr-title">
+                        Сохраните контакт
+                    </div>
                     <img src="img/qrcode.png" class="qr-code" alt="">
                     <div class="qr-subtitle">
                         Отсканируйте QR-код
                     </div>
+                    <script type="application/javascript">
+                        document.getElementById('saveContact').addEventListener('click', function () {
+
+                                const vcard = `BEGIN:VCARD
+                                                    VERSION:3.0
+                                                    N:Чурсинов;Сергей
+                                                    FN:Сергей Чурсинов
+                                                    TEL;cell:+79192333302
+                                                    EMAIL;TYPE=INTERNET:chursinov.s@gmail.com
+                                                    URL:https://schursinov.ru/
+                                                    TITLE:Разработчик 1С
+                                                    PHOTO;VALUE=uri:https://schursinov.ru/img/avatar.png
+                                                    LOGO;VALUE=uri:https://schursinov.ru/img/logo.png
+                                                 END:VCARD`;
+
+                                const blob = new Blob([vcard], { type: 'text/vcard' });
+                                const url = window.URL.createObjectURL(blob);
+                                const a = document.createElement('a');
+
+                                a.style = 'display: none';
+                                a.href = url;
+                                a.download = 'contact.vcf';
+                                document.body.appendChild(a);
+                                a.click();
+                                window.URL.revokeObjectURL(url);
+
+                        });
+                    </script>
                 </div>
             </div>
         </aside>
@@ -214,13 +244,13 @@
         </div>
     </section>
 
-<!--    <div class="cta-block">-->
-<!--        <h3>Есть задача по автоматизации?</h3>-->
-<!--        <p>Разберу ваш кейс и предложу оптимальное решение</p>-->
-<!--        <a class="btn btn-primary" href="https://t.me/sergey_chursinov">-->
-<!--            Написать в Telegram-->
-<!--        </a>-->
-<!--    </div>-->
+    <!--    <div class="cta-block">-->
+    <!--        <h3>Есть задача по автоматизации?</h3>-->
+    <!--        <p>Разберу ваш кейс и предложу оптимальное решение</p>-->
+    <!--        <a class="btn btn-primary" href="https://t.me/sergey_chursinov">-->
+    <!--            Написать в Telegram-->
+    <!--        </a>-->
+    <!--    </div>-->
 
     <section class="section card" id="experience">
 
