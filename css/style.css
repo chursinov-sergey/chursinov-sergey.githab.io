@@ -206,7 +206,6 @@ h2 {
     cursor: pointer;
     font-size: 15px;
 }
-
 .btn-primary {
     background: linear-gradient(135deg, var(--accent), var(--accent-2));
     color: var(--accent-dark);
@@ -434,6 +433,57 @@ ul {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+/* =========================
+   QR БЛОК
+========================= */
+.qr-card {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 16px;
+    text-align: center;
+    position: relative;
+
+    /*background: rgba(255,255,255,0.03);*/
+    /*border: 1px solid rgba(0,140,255,0.2);*/
+
+    backdrop-filter: blur(10px);
+
+    box-shadow:
+            0 0 20px rgba(0,140,255,0.15),
+            inset 0 0 10px rgba(0,140,255,0.05);
+
+    transition: 0.3s;
+}
+
+.qr-card:hover {
+    transform: translateY(-5px);
+    box-shadow:
+            0 0 30px rgba(0,140,255,0.4),
+            inset 0 0 15px rgba(0,140,255,0.1);
+}
+
+.qr-title {
+    font-size: 13px;
+    color: #4da3ff;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.qr-code {
+    width: 140px;
+    height: 140px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 12px;
+    background: white; /* важно */
+    box-shadow: 0 0 15px rgba(0,140,255,0.3);
+}
+
+.qr-subtitle {
+    font-size: 12px;
+    color: #9aa4af;
 }
 
 @media (max-width: 900px) {
