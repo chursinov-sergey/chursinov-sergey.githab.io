@@ -86,27 +86,28 @@ li{
 .brand {
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 10px;
+    flex-wrap: wrap; /* ключевое */
 }
 
 .brand-logo {
-    width: 150px;
-    border-radius: 16px;
-    transition: 0.3s;
+    max-width: 120px;
+    width: 100%;
+    height: auto;
+    flex-shrink: 1;
 }
 
 .brand-logo:hover {
     transform: scale(1.03);
 }
 
-.brand-name h1 {
-    font-size: 40px;
-    font-weight: 700;
+.brand-name {
+    font-size: clamp(18px, 4vw, 32px);
 }
 
-.brand-subtitle h2 {
-    font-size: 20px;
-    color: var(--muted);
+
+.brand-subtitle {
+    font-size: clamp(12px, 3vw, 18px);
 }
 
 /* =========================
@@ -253,6 +254,7 @@ h2 {
     padding: 12px 14px;
     border-radius: 14px;
     transition: 0.2s;
+    background: rgba(56,189,248,0.08);
 }
 
 .contact-link:hover {
@@ -268,18 +270,17 @@ h2 {
     padding: 20px;
     border-radius: 16px;
     text-align: center;
-
     backdrop-filter: blur(10px);
-
+    background: rgba(56,189,248,0.08);
     box-shadow:
             0 0 20px rgba(0,140,255,0.15),
             inset 0 0 10px rgba(0,140,255,0.05);
-
     transition: 0.3s;
 }
 
 .qr-card:hover {
     transform: translateY(-5px);
+    background: rgba(56,189,248,0.08);
 }
 
 .qr-code {
