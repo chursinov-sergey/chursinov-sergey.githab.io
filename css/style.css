@@ -237,6 +237,9 @@ h2 {
     padding: 18px;
     border-radius: 18px;
     background: rgba(255,255,255,0.04);
+    box-shadow:
+            0 0 20px rgba(0,140,255,0.15),
+            inset 0 0 10px rgba(0,140,255,0.05);
 }
 
 .contact-list {
@@ -350,6 +353,9 @@ h2 {
     border-radius: 16px;
     background: rgba(255,255,255,0.04);
     transition: 0.25s;
+    box-shadow:
+            0 0 20px rgba(0,140,255,0.15),
+            inset 0 0 10px rgba(0,140,255,0.05);
 }
 
 .service:hover,
@@ -367,6 +373,9 @@ h2 {
     padding: 9px 13px;
     border-radius: 999px;
     background: rgba(255,255,255,0.06);
+    box-shadow:
+            0 0 20px rgba(0,140,255,0.15),
+            inset 0 0 10px rgba(0,140,255,0.05);
 }
 
 /* =========================
@@ -424,6 +433,9 @@ h2 {
 .contact-link {
     position: relative;
     padding-right: 40px;
+    box-shadow:
+            0 0 20px rgba(0,140,255,0.15),
+            inset 0 0 10px rgba(0,140,255,0.05);
 }
 
 /* кнопка справа */
