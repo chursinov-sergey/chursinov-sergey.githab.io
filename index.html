@@ -105,28 +105,25 @@
                     <script type="application/javascript">
                         document.getElementById('saveContact').addEventListener('click', function () {
 
-                                const vcard = `BEGIN:VCARD
-                                                    VERSION:3.0
-                                                    N:Чурсинов;Сергей
-                                                    FN:Сергей Чурсинов
-                                                    TEL;cell:+79192333302
-                                                    EMAIL;TYPE=INTERNET:chursinov.s@gmail.com
-                                                    URL:https://schursinov.ru/
-                                                    TITLE:Разработчик 1С
-                                                    PHOTO;VALUE=uri:https://schursinov.ru/img/avatar.png
-                                                    LOGO;VALUE=uri:https://schursinov.ru/img/logo.png
-                                                 END:VCARD`;
+                            const vcard = `BEGIN:VCARD
+                                        VERSION:3.0
+                                        N:Чурсинов;Сергей
+                                        FN:Сергей Чурсинов
+                                        TITLE:Разработчик 1С
+                                        TEL;TYPE#WORK,VOICE:+79192333302
+                                        EMAIL:chursinov.s@gmail.com
+                                        END:VCARD`;
 
-                                const blob = new Blob([vcard], { type: 'text/vcard' });
-                                const url = window.URL.createObjectURL(blob);
-                                const a = document.createElement('a');
+                            const blob = new Blob([vcard], {type: 'text/vcard'});
+                            const url = window.URL.createObjectURL(blob);
+                            const a = document.createElement('a');
 
-                                a.style = 'display: none';
-                                a.href = url;
-                                a.download = 'contact.vcf';
-                                document.body.appendChild(a);
-                                a.click();
-                                window.URL.revokeObjectURL(url);
+                            a.style = 'display: none';
+                            a.href = url;
+                            a.download = 'contact.vcf';
+                            document.body.appendChild(a);
+                            a.click();
+                            window.URL.revokeObjectURL(url);
 
                         });
                     </script>
