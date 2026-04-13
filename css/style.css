@@ -346,6 +346,7 @@ h2 {
 .service,
 .case {
     padding: 16px;
+    margin: 8px;
     border-radius: 16px;
     background: rgba(255,255,255,0.04);
     transition: 0.25s;
@@ -375,6 +376,10 @@ h2 {
     text-align: center;
     padding: 30px 0;
     color: rgba(229,238,251,0.55);
+}
+
+.case-text{
+    color: var(--muted);
 }
 
 /* =========================
