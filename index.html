@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
           content="Сергей Чурсинов — программист 1С, ИТ-консалтинг, автоматизация и внедрение решений для бизнеса.">
+    <meta name="theme-color" content="#0b1220">
     <title>Автоматизация бизнеса на 1С без хаоса и лишних затрат</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/favicon.ico">
-    <script src="scr/index.js"></script>
 </head>
 <body>
 <div class="container">
@@ -74,24 +74,41 @@
         </div>
         <aside class="hero-main">
             <div class="side-title" id="contacts">
-                <div class="side-title">Контакты</div>
+                <div class="side-title"><h2>Контакты</h2></div>
                 <div class="contact-list">
-                    <a class="contact-link" href="https://www.schursinov.ru" id="mySite" target="_blank">
+                    <a class="contact-link"
+                       href="https://www.schursinov.ru"
+                       target="_blank"
+                       data-copy="https://www.schursinov.ru">
+
                         <span>Сайт</span>
                         <span>www.schursinov.ru</span>
+
+                        <span class="copy-btn">&#128394</span>
                     </a>
-                    <a class="contact-link" href="mailto:chursinov.s@gmail.com">
+
+                    <a class="contact-link"
+                       href="mailto:chursinov.s@gmail.com"
+                       data-copy="chursinov.s@gmail.com">
                         <span>Email</span>
                         <span>chursinov.s@gmail.com</span>
+                        <span class="copy-btn">&#128394</span>
                     </a>
-                    <a class="contact-link" href="https://t.me/sergey_chursinov" target="_blank"
-                       rel="noopener noreferrer">
+
+                    <a class="contact-link"
+                       href="https://t.me/@sergey_chursinov" target="_blank"
+                       data-copy="@sergey_chursinov">
                         <span>Telegram</span>
                         <span>@sergey_chursinov</span>
+                        <span class="copy-btn">&#128394</span>
                     </a>
-                    <a class="contact-link" href="tel:+79192333302">
+
+                    <a class="contact-link"
+                       href="#"
+                       data-copy="+79192333302">
                         <span>Телефон</span>
                         <span>+7 (919) 233-33-02</span>
+                        <span class="copy-btn">&#128394</span>
                     </a>
                 </div>
                 <div class="qr-card" id="saveContact">
@@ -102,31 +119,6 @@
                     <div class="qr-subtitle">
                         Отсканируйте QR-код
                     </div>
-                    <script type="application/javascript">
-                        document.getElementById('saveContact').addEventListener('click', function () {
-
-                            const vcard = `BEGIN:VCARD
-                                        VERSION:3.0
-                                        N:Чурсинов;Сергей
-                                        FN:Сергей Чурсинов
-                                        TITLE:Разработчик 1С
-                                        TEL;TYPE#WORK,VOICE:+79192333302
-                                        EMAIL:chursinov.s@gmail.com
-                                        END:VCARD`;
-
-                            const blob = new Blob([vcard], {type: 'text/vcard'});
-                            const url = window.URL.createObjectURL(blob);
-                            const a = document.createElement('a');
-
-                            a.style = 'display: none';
-                            a.href = url;
-                            a.download = 'contact.vcf';
-                            document.body.appendChild(a);
-                            a.click();
-                            window.URL.revokeObjectURL(url);
-
-                        });
-                    </script>
                 </div>
             </div>
         </aside>
@@ -135,12 +127,12 @@
         <div class="side-card">
             <div class="container-section-card">
 
-                <div class="box" style="width: 20%">
+                <div>
                     <img class="section_avatar" src="img/avatar.png" alt="Сергей Чурсинов"
                          style="">
                 </div>
 
-                <div class="box" style="width: 80%">
+                <div>
 
                     <h2>Обо мне</h2>
 
@@ -356,6 +348,6 @@
     </footer>
 
 </div>
-
+<script src="js/main.js" defer></script>
 </body>
 </html>
